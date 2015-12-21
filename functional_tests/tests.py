@@ -51,7 +51,9 @@ class NewVisitorTest(LiveServerTestCase):
 		# check 2 items
 		self.check_for_row_in_list_table('1: Buy peacock feathers')
 		self.check_for_row_in_list_table('2: Use peacock feathers to make a fly')
-		# New browser, no cookie leak
+
+
+		## New browser, no cookie leak
 		self.browser.quit()
 		self.browser = webdriver.Firefox()
 		

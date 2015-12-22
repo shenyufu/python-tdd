@@ -53,7 +53,7 @@ ROOT_URLCONF = 'superlists.urls'
 
 WSGI_APPLICATION = 'superlists.wsgi.application'
 
-
+STATIC_URL = '/static/'
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
 

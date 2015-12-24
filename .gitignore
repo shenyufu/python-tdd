@@ -4,6 +4,8 @@ __pycache__
 *.pyc
 *.py~
 *.html~
+*.gitignore~
+*.conf~
 =======
 # Byte-compiled / optimized / DLL files
 __pycache__/
